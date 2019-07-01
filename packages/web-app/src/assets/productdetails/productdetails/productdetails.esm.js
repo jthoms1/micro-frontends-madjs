@@ -1,0 +1,1 @@
+import{p as e,b as r}from"./p-b07d5177.js";e().then(e=>r([["p-a6nuyev6",[[1,"product-details",{itemId:[2,"item-id"]}]]]],{resourcesUrl:e}));

@@ -1,0 +1,1 @@
+System.register(["./p-4af1179b.system.js"],function(){"use strict";var t,e;return{setters:[function(r){t=r.p;e=r.b}],execute:function(){t().then(function(t){return e([["p-uacvtcr1.system",[[1,"product-details",{itemId:[2,"item-id"]}]]]],{resourcesUrl:t})})}}});

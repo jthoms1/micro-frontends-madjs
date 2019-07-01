@@ -1,0 +1,1 @@
+System.register(["./p-cc483d85.system.js"],function(){"use strict";var t,e;return{setters:[function(r){t=r.p;e=r.b}],execute:function(){t().then(function(t){return e([["p-jluyrd8q.system",[[1,"product-list"]]]],{resourcesUrl:t})})}}});

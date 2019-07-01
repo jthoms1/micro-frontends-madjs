@@ -4,6 +4,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "copyproductcheckout": "cp -Rf ../product-checkout/dist/productcheckout/* ./src/assets/productcheckout",
+    "copyproductdetails": "cp -Rf ../product-details/dist/productdetails/* ./src/assets/productdetails",
+    "copyproductlist": "cp -Rf ../product-list/dist/productlist/* ./src/assets/productlist",
+    "copycdn": "npm run copyproductcheckout && npm run copyproductdetails && npm run copyproductlist",
     "start": "per-env",
     "start:production": "npm run -s serve",
     "start:development": "npm run -s dev",

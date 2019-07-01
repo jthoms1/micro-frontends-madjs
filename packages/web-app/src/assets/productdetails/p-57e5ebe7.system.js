@@ -1,0 +1,1 @@
+System.register(["./p-9e0ee274.system.js"],function(){"use strict";var e,t;return{setters:[function(r){e=r.p;t=r.b}],execute:function(){e().then(function(e){return t([["p-cg818r2z.system",[[1,"product-details"]]]],{resourcesUrl:e})})}}});

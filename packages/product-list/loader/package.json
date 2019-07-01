@@ -1,5 +1,5 @@
 {
-  "name": "test-loader",
+  "name": "productlist-loader",
   "typings": "./index.d.ts",
   "module": "./index.mjs",
   "main": "./index.cjs.js",

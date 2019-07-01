@@ -1,0 +1,1 @@
+import{p,b as r}from"./p-6b4171d3.js";p().then(p=>r([["p-hppcd6ir",[[1,"product-list"]]]],{resourcesUrl:p}));

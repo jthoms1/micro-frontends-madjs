@@ -20,7 +20,31 @@
     <% } else if (file.match(/manifest\.json$/)) { %>
     <link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath + file %>" />
     <% } %> <% } %> <% } %>
-    <script src="<%= htmlWebpackPlugin.files.publicPath %>"></script>
+
+    <script
+      type="module"
+      src="<%= htmlWebpackPlugin.files.publicPath %>assets/productlist/productlist.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="<%= htmlWebpackPlugin.files.publicPath %>assets/productlist/productlist.js"
+    ></script>
+    <script
+      type="module"
+      src="<%= htmlWebpackPlugin.files.publicPath %>assets/productdetails/productdetails.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="<%= htmlWebpackPlugin.files.publicPath %>assets/productdetails/productdetails.js"
+    ></script>
+    <script
+      type="module"
+      src="<%= htmlWebpackPlugin.files.publicPath %>assets/productcheckout/productcheckout.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="<%= htmlWebpackPlugin.files.publicPath %>assets/productcheckout/productcheckout.js"
+    ></script>
   </head>
   <body>
     <%= htmlWebpackPlugin.options.ssr({ url: '/' }) %>

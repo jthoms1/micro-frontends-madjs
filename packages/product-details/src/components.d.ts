@@ -9,7 +9,9 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-  interface ProductDetails {}
+  interface ProductDetails {
+    'itemId': number;
+  }
 }
 
 declare global {
@@ -26,7 +28,9 @@ declare global {
 }
 
 declare namespace LocalJSX {
-  interface ProductDetails extends JSXBase.HTMLAttributes<HTMLProductDetailsElement> {}
+  interface ProductDetails extends JSXBase.HTMLAttributes<HTMLProductDetailsElement> {
+    'itemId'?: number;
+  }
 
   interface IntrinsicElements {
     'product-details': ProductDetails;

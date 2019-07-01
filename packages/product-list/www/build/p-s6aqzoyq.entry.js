@@ -1,1 +1,0 @@
-import{r,h as t}from"./p-a6c38a05.js";class s{constructor(t){r(this,t)}render(){return t("div",null,"Product List")}}export{s as product_list};

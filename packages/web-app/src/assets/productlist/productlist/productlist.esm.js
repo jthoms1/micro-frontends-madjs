@@ -1,0 +1,1 @@
+import{p as s,b as r}from"./p-6b4171d3.js";s().then(s=>r([["p-7ts2mtfk",[[1,"product-list"]]]],{resourcesUrl:s}));
