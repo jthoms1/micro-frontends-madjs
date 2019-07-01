@@ -1,1 +1,1 @@
-import{p as s,b as r}from"./p-6b4171d3.js";s().then(s=>r([["p-7ts2mtfk",[[1,"product-list"]]]],{resourcesUrl:s}));
+import{p as r,b as s}from"./p-4528575f.js";r().then(r=>s([["p-wo2iwxdj",[[1,"product-list"]]]],{resourcesUrl:r}));

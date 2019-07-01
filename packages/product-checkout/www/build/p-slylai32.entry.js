@@ -1,1 +1,0 @@
-import{r,h as t}from"./p-732b4faf.js";class o{constructor(t){r(this,t)}render(){return t("div",null,"Product Checkout")}}export{o as product_checkout};

@@ -9,7 +9,9 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-  interface ProductCheckout {}
+  interface ProductCheckout {
+    'itemId': number;
+  }
 }
 
 declare global {
@@ -26,7 +28,9 @@ declare global {
 }
 
 declare namespace LocalJSX {
-  interface ProductCheckout extends JSXBase.HTMLAttributes<HTMLProductCheckoutElement> {}
+  interface ProductCheckout extends JSXBase.HTMLAttributes<HTMLProductCheckoutElement> {
+    'itemId'?: number;
+  }
 
   interface IntrinsicElements {
     'product-checkout': ProductCheckout;

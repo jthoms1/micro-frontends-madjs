@@ -26,7 +26,9 @@ declare global {
 }
 
 declare namespace LocalJSX {
-  interface ProductList extends JSXBase.HTMLAttributes<HTMLProductListElement> {}
+  interface ProductList extends JSXBase.HTMLAttributes<HTMLProductListElement> {
+    'onViewproduct'?: (event: CustomEvent<any>) => void;
+  }
 
   interface IntrinsicElements {
     'product-list': ProductList;

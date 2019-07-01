@@ -16,7 +16,7 @@ export class ProductCheckout {
     const item = carList.find(car => car.id === this.itemId);
     return (
       <button
-        onClick={e => this.boughtIt(item)}
+        onClick={() => this.boughtIt(item)}
         title={item.car_make + " " + item.car_model}
       >
         Product Checkout

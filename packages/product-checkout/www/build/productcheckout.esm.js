@@ -1,1 +1,1 @@
-import{p as r,b as s}from"./p-732b4faf.js";r().then(r=>s([["p-slylai32",[[1,"product-checkout"]]]],{resourcesUrl:r}));
+import{p as r,b as e}from"./p-f53b9b61.js";r().then(r=>e([["p-uqqcxrpj",[[1,"product-checkout",{itemId:[2,"item-id"]}]]]],{resourcesUrl:r}));

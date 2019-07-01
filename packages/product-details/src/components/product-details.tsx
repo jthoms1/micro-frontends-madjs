@@ -13,7 +13,11 @@ export class ProductDetails {
     return (
       <div>
         {item.car_make}
+        <br />
+        <br />
         {item.car_model}
+        <br />
+        <br />
         {item.car_year}
       </div>
     );

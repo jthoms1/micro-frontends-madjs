@@ -1,0 +1,1 @@
+System.register(["./p-e2136d0b.system.js"],function(){"use strict";var e,t;return{setters:[function(r){e=r.p;t=r.b}],execute:function(){e().then(function(e){return t([["p-nrxnosfy.system",[[1,"product-checkout",{itemId:[2,"item-id"]}]]]],{resourcesUrl:e})})}}});
