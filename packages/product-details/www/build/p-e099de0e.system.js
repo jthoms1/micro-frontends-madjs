@@ -1,0 +1,1 @@
+System.register(["./p-431db64d.system.js"],function(){"use strict";var t,e;return{setters:[function(s){t=s.p;e=s.b}],execute:function(){t().then(function(t){return e([["p-nwdlawx3.system",[[1,"product-details"]]]],{resourcesUrl:t})})}}});

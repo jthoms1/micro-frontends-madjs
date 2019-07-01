@@ -1,0 +1,1 @@
+System.register(["./p-431db64d.system.js"],function(t){"use strict";var r,n;return{setters:[function(t){r=t.r;n=t.h}],execute:function(){var e=function(){function t(t){r(this,t)}t.prototype.render=function(){return n("div",null,"Product List")};return t}();t("product_list",e)}}});
