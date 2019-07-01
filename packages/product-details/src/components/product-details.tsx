@@ -6,6 +6,6 @@ import { Component, h } from "@stencil/core";
 })
 export class ProductDetails {
   render() {
-    return <div>Hello, World! I'm </div>;
+    return <div>Product Details</div>;
   }
 }
